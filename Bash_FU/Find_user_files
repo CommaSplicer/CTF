@@ -1,1 +1,6 @@
+### find all user files that that username owns in allfolders from rootlevel /
 find / -type f -group USERNAME 2>/dev/null
+
+
+### Find all files with file name "example" from root level /
+find / -type f -name example
