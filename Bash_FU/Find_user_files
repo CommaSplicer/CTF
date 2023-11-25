@@ -1,0 +1,1 @@
+find / -type f -group USERNAME 2>/dev/null
