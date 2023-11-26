@@ -1,3 +1,0 @@
-python3 -c "import pty:pty.spwan('/bin/bash')"
-control Z / stop proccess with out killing it
-stty raw -echo;fg
