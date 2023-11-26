@@ -15,3 +15,7 @@ idx = d.find(orig)
 d[idx : idx + len(sc)] = sc
 
 open("./libc.so.6", "wb").write(d)
+
+
+### complie C code
+### gcc -o exp code.c
