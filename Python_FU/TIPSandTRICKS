@@ -1,0 +1,2 @@
+## system command
+os.system('chmod 777 /home/user/')
