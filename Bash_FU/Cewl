@@ -1,0 +1,1 @@
+cewl -d 2 -m 5 -w passwords.txt http://10.10.136.96 --with-numbers
