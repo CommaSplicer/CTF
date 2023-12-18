@@ -1,3 +1,19 @@
+###
 rwcut FILENAME --fields=protocol,sIP,sPort,dIP,dPort --num-recs=5
+
+
+###
+rwfilter FILENAME --proto=17 --pass=stdout | rwcut --num-recs=5
+
+
+
+###
+rwstats FILENAME --fields=dPort --values=records,packets,bytes,sIP-Distinct,dIP-Distinct --count=10
+
+#### --values=sIP-Distinct,dIP-Distinct: Shows the number of unique IP addresses that used the filtered field
+#### This command shows the top five destination ports, which will help you understand where the outgoing traffic is going.
+
+
+
 
 
