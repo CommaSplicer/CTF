@@ -5,6 +5,8 @@ rwcut FILENAME --fields=protocol,sIP,sPort,dIP,dPort --num-recs=5
 ###
 rwfilter FILENAME --proto=17 --pass=stdout | rwcut --num-recs=5
 
+rwfilter FILENAME --any-address=IP-HERE--pass=stdout | rwstats --fields=sIP,dIP --values=records,bytes,packets --count=10
+
 
 
 ###
