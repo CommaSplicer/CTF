@@ -1,0 +1,3 @@
+rwcut FILENAME --fields=protocol,sIP,sPort,dIP,dPort --num-recs=5
+
+
