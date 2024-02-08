@@ -2,3 +2,19 @@ php://filter/convert.base64-encode/resource=/etc/passwd
 
 
 
+There are many categories of filters in PHP. Some of these are 
+String Filters 
+(string.rot13, string.toupper, string.tolower, and string.strip_tags), 
+
+Conversion Filters (convert.base64-encode, convert.base64-decode, convert.quoted-printable-encode, and convert.quoted-printable-decode), 
+
+
+Compression Filters (zlib.deflate and zlib.inflate), 
+
+
+
+and Encryption Filters (mcrypt, and mdecrypt) which is now deprecated.
+
+
+
+
