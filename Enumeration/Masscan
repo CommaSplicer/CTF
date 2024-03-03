@@ -1,0 +1,1 @@
+sudo masscan 0.0.0.0 -p22 | awk '{print $6}' > iplist.txt
