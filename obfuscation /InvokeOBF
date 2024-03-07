@@ -1,1 +1,1 @@
-Invoke-Obfuscation -ScriptPath "Z:\PayloadObf.ps1" -Command 'Token\All\1,Encoding\1,out'
+Invoke-Obfuscation -ScriptPath "Z:\PayloadObf.ps1" -Command 'String\3,Encoding\1,out'
