@@ -1,4 +1,8 @@
 ## hack tricks ##
+
+#All bytes inside a file (except 0x20 and 0x00)
+for j in $((for i in {0..9}{0..9} {0..9}{a..f} {a..f}{0..9} {a..f}{a..f}; do echo $i; done ) | sort | grep -v "20\|00"); do echo -n -e "\x$j" >> bytes; done
+
 #Exfiltration using Base64
 base64 -w 0 file
 
